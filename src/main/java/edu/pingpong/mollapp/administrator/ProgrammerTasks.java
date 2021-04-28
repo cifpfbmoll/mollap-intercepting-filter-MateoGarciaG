@@ -2,10 +2,7 @@ package edu.pingpong.mollapp.administrator;
 
 import edu.pingpong.mollapp.targets.Target;
 
-import java.util.logging.Filter;
-
 public class ProgrammerTasks {
-
 
     private Tasks tasks = null;
 
@@ -26,7 +23,5 @@ public class ProgrammerTasks {
     public void executeTasks(String request) {
         this.tasks.execute(request);
     }
-
-
 
 }
