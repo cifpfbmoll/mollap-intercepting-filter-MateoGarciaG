@@ -1,10 +1,6 @@
 package edu.pingpong.mollapp.administrator;
 
 import edu.pingpong.mollapp.targets.Target;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.logging.Filter;
-
 
 public class Tasks {
 
@@ -29,9 +25,6 @@ public class Tasks {
     public void addTask(Filter filter) {}
 
     public void execute(String request) {}
-
-
-
 
 
 }

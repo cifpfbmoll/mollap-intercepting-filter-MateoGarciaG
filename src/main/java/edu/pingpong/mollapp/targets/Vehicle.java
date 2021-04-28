@@ -5,4 +5,5 @@ public class Vehicle implements Target {
     public void execution(String request) {
         System.out.println("Open The Door succesfully");
     }
+
 }
