@@ -1,6 +1,10 @@
 package edu.pingpong.mollapp.administrator;
 
 import edu.pingpong.mollapp.targets.Target;
+import edu.pingpong.mollapp.filters.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Tasks {
 

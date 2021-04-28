@@ -1,5 +1,6 @@
 package edu.pingpong.mollapp.administrator;
 
+import edu.pingpong.mollapp.filters.*;
 import edu.pingpong.mollapp.targets.Vehicle;
 import org.junit.*;
 

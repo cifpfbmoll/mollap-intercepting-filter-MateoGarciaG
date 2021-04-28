@@ -1,6 +1,7 @@
 package edu.pingpong.mollapp.administrator;
 
 import edu.pingpong.mollapp.targets.Target;
+import edu.pingpong.mollapp.filters.*;
 
 public class ProgrammerTasks {
 
