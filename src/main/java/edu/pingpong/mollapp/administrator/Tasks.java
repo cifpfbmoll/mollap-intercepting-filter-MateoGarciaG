@@ -14,8 +14,8 @@ public class Tasks {
 
     public Tasks() {}
 
-    public List<Filter> getFilters() {
-        return filters;
+    public List<Filter> getTasks() {
+        return this.filters;
     }
 
     public Target getTarget() {
@@ -27,6 +27,8 @@ public class Tasks {
     }
 
     public void addTask(Filter filter) {}
+
+    public void execute(String request) {}
 
 
 
