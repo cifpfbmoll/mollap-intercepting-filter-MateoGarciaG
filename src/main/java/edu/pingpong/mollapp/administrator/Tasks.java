@@ -5,12 +5,13 @@ import edu.pingpong.mollapp.filters.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class Tasks {
 
-    private List<Filter> filters = new ArrayList<Filter>();
+    private final List<Filter> filters = new ArrayList<Filter>();
 
-    private Target target = null;
+    private Optional<Target> target = Optional.empty();
 
     public Tasks() {}
 
@@ -19,16 +20,23 @@ public class Tasks {
     }
 
     public Target getTarget() {
-        return target;
+        return this.target.orElse(null);
     }
 
     public void setTarget(Target target) {
-        this.target = target;
+        this.target = Optional.ofNullable(target);
     }
 
-    public void addTask(Filter filter) {}
+    public void addTask(Filter filter) {
+        this.filters.add(filter);
+    }
 
-    public void execute(String request) {}
+    public void execute(String request) {
+
+        this.filters.forEach(f -> f.execute(request));
+
+        this.target.ifPresent(t -> t.execution(request));
+    }
 
 
 }
