@@ -24,7 +24,7 @@ When a person wants to use one of the vehicles, the mobile application sends a r
 ---
 
 ## Salida de mi Aplicación
-![Project Salida Aplicacion](./doc/salida_consola.JPG)
+![Project Salida Aplicacion](./doc/img/salida_app.JPG)
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
@@ -32,7 +32,8 @@ When a person wants to use one of the vehicles, the mobile application sends a r
 ---
 
 ## Diagrama UML
-![Project UML Diagram](./doc/diagrama_clases_UML.png)
+UML Diagram provided by @dfleta
+![Project UML Diagram](./doc/UML_Diagram/diagrama_clases_UML_intercepting_filter.gif)
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
@@ -54,6 +55,7 @@ When a person wants to use one of the vehicles, the mobile application sends a r
 ## Reflexiones
 
 ### Que has mejorado con este proyecto?
+This project has let me to understand a new Desing Pattern which thread with requests and the Pre and Pro processing and all posibilities that this design pattern let to use in our App. One of the main concepts of this Design Pattern is the ProgrammerTasks that it's not only the entity who manage the Tasks with the filters, it's also a abstraction layer that let us to separate more the interaction between Client and the Tasks with the Target.
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
