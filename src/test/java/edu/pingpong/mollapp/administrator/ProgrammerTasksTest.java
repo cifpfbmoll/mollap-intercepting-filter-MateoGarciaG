@@ -34,6 +34,6 @@ public class ProgrammerTasksTest {
         assertEquals(this.authentication, this.programmerTasks.getTasks().getTasks().get(0));
         assertEquals(this.autorization, this.programmerTasks.getTasks().getTasks().get(1));
     }
-    
+
 
 }
