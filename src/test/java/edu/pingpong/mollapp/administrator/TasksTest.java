@@ -23,9 +23,9 @@ public class TasksTest {
     @Test
     public void addTasksTest() {
         this.tasks.addTask(new Authentication());
-        this.tasks.addTask(new Authorization());
+        this.tasks.addTask(new Autorization());
 
-        assertEquals(2, this.tasks.getTasks().length());
+        assertEquals(2, this.tasks.getTasks().size());
 
     }
 
