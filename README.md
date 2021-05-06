@@ -3,6 +3,8 @@ MollApp FP Dual DAW Project, This Project is about to build a System that consis
 
 When a person wants to use one of the vehicles, the mobile application sends a request to the system, requesting their authentication with the user's name, and the system authorizes access to the car. The system then sends the wireless signal to open the vehicle door to the vehicle.
 
+### This Project use the Intercepting Filter Pattern
+
 [![status application](https://img.shields.io/badge/status-stable-brightgreen)](URL_Proyecto)
 
 <!--Logos-->
